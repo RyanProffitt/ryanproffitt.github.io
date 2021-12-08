@@ -192,7 +192,7 @@ p:last-child {
   margin-right: 30px;
 }
 
-#activities {
+#projects {
   padding-top: 50px;
 }
 
@@ -208,7 +208,7 @@ p:last-child {
   justify-content: center;
   width: 100%;
   height: 240px;
-  background-image: url(../img/img-activities.jpg);
+  background-image: url(../img/earth.jpeg);
   margin-bottom: 68px;
   position: relative;
 }
@@ -253,25 +253,25 @@ p:last-child {
   height: 180px;
 }
 
-.tm-company-section {
+.tm-about-section {
   padding-top: 53px;
 }
 
-.tm-company-about {
+.tm-about-about {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.tm-company-about-text {
+.tm-about-about-text {
   padding: 35px;
 }
 
-.tm-company-about-header {
+.tm-about-about-header {
   margin-bottom: 28px;
 }
 
-.tm-company-img-container img {
+.tm-about-img-container img {
   width: 400px;
   height: auto;
 }
@@ -298,7 +298,7 @@ p:last-child {
   float: right;
 }
 
-.tm-company-right-inner {
+.tm-about-right-inner {
   border: 1px solid #c7c7c7;
 }
 
@@ -316,21 +316,21 @@ p:last-child {
   border-right: none;
 }
 
-#tmCompanyTab .nav-item {
+#tmAboutTab .nav-item {
   width: 50%;
   text-align: center;
 }
 
-#tmCompanyTab .nav-link {
+#tmAboutTab .nav-link {
   border-bottom: 1px solid #c7c7c7;
 }
 
-#tmCompanyTab .tm-nav-link-border-right {
+#tmAboutTab .tm-nav-link-border-right {
   border-right: 1px solid #c7c7c7;
 }
 
-#tmCompanyTab .nav-item.show .nav-link,
-#tmCompanyTab .nav-link.active {
+#tmAboutTab .nav-item.show .nav-link,
+#tmAboutTab .nav-link.active {
   border-bottom: none;
 }
 
@@ -444,7 +444,7 @@ figure {
     max-width: 582px;
   }
 
-  .tm-company-about {
+  .tm-about-about {
     flex-direction: column;
     align-items: center;
   }
@@ -459,23 +459,23 @@ figure {
     max-width: 1233px;
   }
 
-  .tm-company-about {
+  .tm-about-about {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .tm-company-about-text {
+  .tm-about-about-text {
     padding: 0 35px 35px;
   }
 
-  .tm-company-left {
+  .tm-about-left {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 68%;
     flex: 0 0 68%;
     max-width: 870px;
   }
 
-  .tm-company-right {
+  .tm-about-right {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 32%;
     flex: 0 0 32%;
